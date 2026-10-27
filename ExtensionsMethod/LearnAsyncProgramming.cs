@@ -251,25 +251,9 @@ namespace ExtensionsMethod
             Console.WriteLine("All learners processed");
         }
 
-        // ============================================
-        // 9. ASYNC MAIN PRACTICE SELECTOR
-        // ============================================
+     
 
-        public async Task Run()
-        {
-
-
-            // await BasicAsync();
-
-            await TaskTrackingAsync();
-            // await SequentialAsync();
-            // await ConcurrentAsync();
-            // await WhenAllAsync();
-            // await WhenAnyAsync();
-            // await ExceptionHandlingAsync();
-            // await CancellationAsync();
-
-        }
+       
     }
 
 
